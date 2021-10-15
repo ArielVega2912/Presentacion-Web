@@ -1,0 +1,154 @@
+body{
+    background-image:url('../imagenes/5295526.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header{
+    height: 125px;
+    width: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.medio{
+    margin-top:40em;
+    margin-bottom:10px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    justify-content: center;  
+    align-items: center;  
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+#cabecera{
+    box-shadow: 5px 8px 5px 5px rgba(12, 12, 12, 0.644);
+    border-radius: 0px 0px 10px 10px;
+    background-color:rgba(202, 136, 60, 0.417);
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+h1{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#links:hover{
+
+    color:black !important;
+
+}
+
+#presentacion{
+    width: 60em;
+    height: auto;
+    margin: 20px;
+    margin-bottom: 20em;
+    margin-top: 15em;
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.315);
+    text-align:center;
+    border-radius:10px;
+    box-shadow: 5px 8px 5px 5px rgba(12, 12, 12, 0.644);
+}
+
+#contenedor{
+    width: 60%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-around;  
+}
+
+.box-contenedor{
+    width: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 5px;
+    margin-bottom: 25px;
+    background-color:rgba(37, 4, 34, 0.411);
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(12, 12, 12, 0.644)
+}
+
+.cajas{
+    color: rgb(110, 177, 22);
+    height: 10rem;
+    width: 20rem;
+    margin: 10px;
+    background-color: rgba(9, 4, 37, 0.712);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(80, 79, 79, 0.986);
+    opacity: 70%;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(27, 9, 131, 0.548);
+    border-radius: 50px;
+}
+
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:15rem;
+    margin-bottom: 2em;
+}
+
+#formulario{
+    background-color:rgba(34, 34, 82, 0.719);
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+    display:flex;
+    flex-direction: column;
+
+}
+
+#formulario Legend{
+    text-align: center;
+    font-size: 30px;
+}
+
+#formulario p{
+    font-size:20px;
+}
+
+#redes{
+    margin-top: 0.5em;
+    font-size: 3em;
+    padding: 5px;
+    margin-bottom: 0.5em;
+}
+
+#redes a{ 
+    margin: 15px;
+}
+
+a :hover{
+    color: black;
+}
